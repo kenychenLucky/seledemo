@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Auto Test Demo" preserve-order="true">
+
+    <test name="自动化测试Demo">
+        <classes>
+            <class name="com.dachan.TestDemo">
+                <methods>
+                    <include name="testBaidu" />
+                    <include name="testName" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
